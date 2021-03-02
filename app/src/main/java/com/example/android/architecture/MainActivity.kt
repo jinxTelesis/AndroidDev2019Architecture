@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
+        lifecycle.addObserver(MyLifecycleObservers())
     }
+
+
+
+
+
 
 }
